@@ -9,7 +9,12 @@ export default function Sidebar() {
   let [newMenuItem, setNewMenuItem] = useState("");
   
   // TODO 2: Using a state hook, maintain the current menu items as an array state.
-  let [menuItems, setMenuItems] = useState(["Home", "About", "Services", "Contact"]);
+  let [menuItems, setMenuItems] = useState([
+    "Albert Eggstein",
+    "Attila the Hen",
+    "Dixie Chick",
+    "Gregory Pack",
+    "Mark Poopins"]);
   
   let [filter, setFilter] = useState("");
 
