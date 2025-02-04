@@ -8,7 +8,7 @@ import { useState, useCallback } from "react";
 export default function Sidebar() {
   let [newMenuItem, setNewMenuItem] = useState("");
   
-  // TODO 2: Using a state hook, maintain the current menu items as an array state.
+  // TODO 2: Uses a state hook, maintain the current menu items as an array state.
   let [menuItems, setMenuItems] = useState([
     "Albert Eggstein",
     "Attila the Hen",
